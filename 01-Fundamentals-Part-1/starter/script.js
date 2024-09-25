@@ -84,14 +84,26 @@ A multiline comment
 //     console.log('Younger than 30')
 // }
 
-const inputYear = '2024';
-console.log(Number(inputYear), inputYear);
+// const inputYear = '2024';
+// console.log(Number(inputYear), inputYear);
+//
+// console.log(Number('Ilias'));
+// console.log(typeof NaN);
+//
+// console.log(String(2024), 2024);
+//
+//
+// console.log(10 - '10' + 10);
+// console.log('23' * '2');
 
-console.log(Number('Ilias'));
-console.log(typeof NaN);
+console.log(Boolean("Hello World"));
+console.log(Boolean(""));
+console.log(Boolean(0));
+console.log(Boolean({}));
+console.log(Boolean(undefined));
 
-console.log(String(2024), 2024);
-
-
-console.log(10 - '10' + 10);
-console.log('23' * '2');
+let money = 100;
+if(money)
+    console.log('dont spend it all');
+else
+    console.log('no money');
