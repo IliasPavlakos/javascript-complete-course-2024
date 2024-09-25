@@ -28,16 +28,35 @@ A multiline comment
 //
 // console.log(typeof aNumberVar); // changed to string
 
-let age = 25;
-age = 26;
+// let age = 25;
+// age = 26;
+//
+// const minAge = 0; // can't be changed
+// // minAge = 100; // Causes error
+//
+// // Causes error because of no initial value
+// // const job;
+//
+// var otherAge = 32; // legacy - must be avoided
+//
+// lastName = 'Stark'; // don't need to declare variable - bad idea, never do this, always declare variable
+// console.log(lastName)
 
-const minAge = 0; // can't be changed
-// minAge = 100; // Causes error
+const ageIlias = 2024 - 1998;
+console.log(ageIlias);
 
-// Causes error because of no initial value
-// const job;
+console.log(2 ** 3 === 8)
 
-var otherAge = 32; // legacy - must be avoided
+let x = 1;
 
-lastName = 'Stark'; // don't need to declare variable - bad idea, never do this, always declare variable
-console.log(lastName)
+x += 1;
+console.log(x === 2);
+
+x *= 2;
+console.log(x === 4);
+
+console.log(x++ === 4);
+console.log(x === 5);
+console.log(++x === 6);
+
+console.log(x >= 6);
