@@ -96,14 +96,54 @@ A multiline comment
 // console.log(10 - '10' + 10);
 // console.log('23' * '2');
 
-console.log(Boolean("Hello World"));
-console.log(Boolean(""));
-console.log(Boolean(0));
-console.log(Boolean({}));
-console.log(Boolean(undefined));
+// console.log(Boolean("Hello World"));
+// console.log(Boolean(""));
+// console.log(Boolean(0));
+// console.log(Boolean({}));
+// console.log(Boolean(undefined));
+//
+// let money = 100;
+// if(money)
+//     console.log('dont spend it all');
+// else
+//     console.log('no money');
 
-let money = 100;
-if(money)
-    console.log('dont spend it all');
-else
-    console.log('no money');
+const age = 26;
+
+if(age === 26)
+    console.log("Is 26!");
+
+console.log(18 === '18');
+console.log(18 == '18');
+
+const inputNumber = Number(prompt("What's your favorite number?"));
+
+console.log(inputNumber)
+console.log(typeof inputNumber)
+
+if(inputNumber === 23)
+    console.log("Cool!");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
