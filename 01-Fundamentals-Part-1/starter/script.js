@@ -42,21 +42,23 @@ A multiline comment
 // lastName = 'Stark'; // don't need to declare variable - bad idea, never do this, always declare variable
 // console.log(lastName)
 
-const ageIlias = 2024 - 1998;
-console.log(ageIlias);
+// const ageIlias = 2024 - 1998;
+// console.log(ageIlias);
+//
+// console.log(2 ** 3 === 8)
+//
+// let x = 1;
+//
+// x += 1;
+// console.log(x === 2);
+//
+// x *= 2;
+// console.log(x === 4);
+//
+// console.log(x++ === 4);
+// console.log(x === 5);
+// console.log(++x === 6);
+//
+// console.log(x >= 6);
 
-console.log(2 ** 3 === 8)
-
-let x = 1;
-
-x += 1;
-console.log(x === 2);
-
-x *= 2;
-console.log(x === 4);
-
-console.log(x++ === 4);
-console.log(x === 5);
-console.log(++x === 6);
-
-console.log(x >= 6);
+console.log(1 < 2 ** 2);
