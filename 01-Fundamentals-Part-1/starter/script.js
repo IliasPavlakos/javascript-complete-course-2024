@@ -75,11 +75,23 @@ A multiline comment
 // console.log(`String
 // with
 // multiple lines`);
+//
+// let age = 26;
+//
+// if(age > 30){
+//     console.log('Older than 30')
+// }else{
+//     console.log('Younger than 30')
+// }
 
-let age = 26;
+const inputYear = '2024';
+console.log(Number(inputYear), inputYear);
 
-if(age > 30){
-    console.log('Older than 30')
-}else{
-    console.log('Younger than 30')
-}
+console.log(Number('Ilias'));
+console.log(typeof NaN);
+
+console.log(String(2024), 2024);
+
+
+console.log(10 - '10' + 10);
+console.log('23' * '2');
