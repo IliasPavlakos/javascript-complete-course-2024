@@ -60,5 +60,18 @@ A multiline comment
 // console.log(++x === 6);
 //
 // console.log(x >= 6);
+//
+// console.log(1 < 2 ** 2);
 
-console.log(1 < 2 ** 2);
+const firstName = 'Ilias';
+const age = 26;
+const job = 'software engineer';
+
+console.log("I'm " + firstName + ', a ' + age + ' years old ' + job + '.');
+
+const message = `I'm ${firstName}, a ${age} years old ${job}.`;
+console.log(message);
+
+console.log(`String
+with
+multiple lines`);
