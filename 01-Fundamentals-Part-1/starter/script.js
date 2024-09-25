@@ -6,11 +6,11 @@
 // let PI = Math.PI;
 // console.log(PI);
 
-let aNumberVar = 1;
-let aStringVar = 'Hello World';
-let aBooleanVar = true;
-let aUndefinedVar = undefined;
-let aNullVar = null;
+// let aNumberVar = 1;
+// let aStringVar = 'Hello World';
+// let aBooleanVar = true;
+// let aUndefinedVar = undefined;
+// let aNullVar = null;
 
 // A single line comment
 
@@ -18,12 +18,26 @@ let aNullVar = null;
 A multiline comment
 */
 
-console.log(typeof aNumberVar);
-console.log(typeof aStringVar);
-console.log(typeof aBooleanVar);
-console.log(typeof aUndefinedVar);
-console.log(typeof aNullVar); // return object with is a known bug
+// console.log(typeof aNumberVar);
+// console.log(typeof aStringVar);
+// console.log(typeof aBooleanVar);
+// console.log(typeof aUndefinedVar);
+// console.log(typeof aNullVar); // return object with is a known bug - legacy
+//
+// aNumberVar = '1';
+//
+// console.log(typeof aNumberVar); // changed to string
 
-aNumberVar = '1';
+let age = 25;
+age = 26;
 
-console.log(typeof aNumberVar); // changed to string
+const minAge = 0; // can't be changed
+// minAge = 100; // Causes error
+
+// Causes error because of no initial value
+// const job;
+
+var otherAge = 32; // legacy - must be avoided
+
+lastName = 'Stark'; // don't need to declare variable - bad idea, never do this, always declare variable
+console.log(lastName)
