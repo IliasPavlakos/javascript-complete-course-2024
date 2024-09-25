@@ -1,7 +1,9 @@
 
-let js = 'amazing';
-if(js === 'amazing')
-    alert('amazing');
 
-40 + 8 + 23 - 10;
-console.log(40 + 8 + 23 - 10);
+let firstName = 'Ilias';
+let lastName = 'Pavlakos';
+
+console.log(firstName + ' ' +  lastName);
+
+let PI = Math.PI;
+console.log(PI);
