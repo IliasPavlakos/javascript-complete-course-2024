@@ -1,5 +1,9 @@
 'use strict';
 
+function logger(message){
+    console.log(message)
+}
+
 let hasDriversLicense = false;
 let passTest = true;
 
@@ -8,5 +12,5 @@ if(passTest){
 }
 
 if(hasDriversLicense){
-    console.log("I can drive");
+    logger("I can drive");
 }
