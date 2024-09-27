@@ -65,25 +65,39 @@
 // console.log(fruits.includes('apple'));
 // console.log(fruits.includes('cherry'));
 
-
-const user = {
-    firstName:'Ilias',
-    lastName:'Pavlakos',
-    age:26,
-    calcBirthYear: function (){
-        return 2024 - 26
-    }
-};
+//
+// const user = {
+//     firstName:'Ilias',
+//     lastName:'Pavlakos',
+//     age:26,
+//     calcBirthYear: function (){
+//         return 2024 - 26
+//     }
+// };
 //
 // console.log(user);
 //
 // console.log(user.firstName);
 //
 // console.log(user['firstName']);
+//
+// console.log(user.calcBirthYear());
 
-console.log(user.calcBirthYear());
+let reps = 0;
+while (true) {
+console.log('lifting rep ' + reps++);
 
+if(reps > 15)
+    break;
+}
 
+for (let i = 0; i < reps; i++){
+    console.log('lifting again! rep ' + i);
+}
+
+do{
+    console.log(1);
+}while (false);
 
 
 
