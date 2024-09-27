@@ -82,25 +82,30 @@
 // console.log(user['firstName']);
 //
 // console.log(user.calcBirthYear());
+//
+// let reps = 0;
+// while (true) {
+// console.log('lifting rep ' + reps++);
+//
+// if(reps > 15)
+//     break;
+// }
+//
+// for (let i = 0; i < reps; i++){
+//     console.log('lifting again! rep ' + i);
+// }
+//
+// do{
+//     console.log(1);
+// }while (false);
+//
+//
 
-let reps = 0;
-while (true) {
-console.log('lifting rep ' + reps++);
+const fruits = ['banana', 'apple', 'mango'];
 
-if(reps > 15)
-    break;
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
 }
-
-for (let i = 0; i < reps; i++){
-    console.log('lifting again! rep ' + i);
-}
-
-do{
-    console.log(1);
-}while (false);
-
-
-
 
 
 
