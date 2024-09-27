@@ -69,14 +69,20 @@
 const user = {
     firstName:'Ilias',
     lastName:'Pavlakos',
-    age:26
+    age:26,
+    calcBirthYear: function (){
+        return 2024 - 26
+    }
 };
+//
+// console.log(user);
+//
+// console.log(user.firstName);
+//
+// console.log(user['firstName']);
 
-console.log(user);
+console.log(user.calcBirthYear());
 
-console.log(user.firstName);
-
-console.log(user['firstName']);
 
 
 
