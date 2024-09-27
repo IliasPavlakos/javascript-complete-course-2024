@@ -64,3 +64,19 @@
 //
 // console.log(fruits.includes('apple'));
 // console.log(fruits.includes('cherry'));
+
+
+const user = {
+    firstName:'Ilias',
+    lastName:'Pavlakos',
+    age:26
+};
+
+console.log(user);
+
+
+
+
+
+
+
