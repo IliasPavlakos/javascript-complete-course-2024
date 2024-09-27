@@ -1,22 +1,32 @@
 'use strict';
 
-function logger(message){
-    console.log(message)
-}
+// function logger(message){
+//     console.log(message)
+// }
+//
+// const print1 = function(){
+//     console.log(1)
+// }
+//
+// let hasDriversLicense = false;
+// let passTest = true;
+//
+// if(passTest){
+//     hasDriversLicense = true;
+// }
+//
+// if(hasDriversLicense){
+//     logger("I can drive");
+// }
+//
+// print1();
 
-const print1 = function(){
-    console.log(1)
-}
+const calcAge = birthTear => 2024 - birthTear;
 
-let hasDriversLicense = false;
-let passTest = true;
+console.log(calcAge(1998));
 
-if(passTest){
-    hasDriversLicense = true;
-}
-
-if(hasDriversLicense){
-    logger("I can drive");
-}
-
-print1();
+const yearsUntilRetirment = (birthYear, firstName) => {
+    const age = 2024 - birthYear;
+    const retirment = 65 - age;
+    return `${firstName} retires in ${retirment} years.`
+};
