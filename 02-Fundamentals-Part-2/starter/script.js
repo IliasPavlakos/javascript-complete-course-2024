@@ -74,6 +74,10 @@ const user = {
 
 console.log(user);
 
+console.log(user.firstName);
+
+console.log(user['firstName']);
+
 
 
 
