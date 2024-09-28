@@ -119,12 +119,9 @@ const restaurant = {
 // name &&= 'john';
 // console.log(name);
 
-const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+let a1 = { name:'a1', value:1 };
+let a2 = { name:'a2', value:2 };
 
-for(const item of menu){
-    console.log(item);
-}
+let a = { name: 'a', a1, a2}
 
-for(const item of menu.entries()){
-    console.log(item);
-}
+console.log(a.a1)
