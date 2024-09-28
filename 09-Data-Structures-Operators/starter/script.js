@@ -119,9 +119,31 @@ const restaurant = {
 // name &&= 'john';
 // console.log(name);
 
-let a1 = { name:'a1', value:1 };
-let a2 = { name:'a2', value:2 };
+// let a1 = { name:'a1', value:1 };
+// let a2 = { name:'a2', value:2 };
+//
+// let a = { name: 'a', a1, a2}
+//
+// console.log(a.a1)
 
-let a = { name: 'a', a1, a2}
+const mySet = new Set([
+    1,
+    1,
+    1,
+    2,
+    3,
+    4,
+    4,
+    1
+]);
 
-console.log(a.a1)
+console.log(...mySet);
+
+console.log(mySet.size);
+
+console.log(mySet.has(1))
+console.log(mySet.has(12))
+
+mySet.add(12);
+console.log(...mySet);
+console.log(mySet.has(12))
