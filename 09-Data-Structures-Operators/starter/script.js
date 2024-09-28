@@ -148,20 +148,34 @@ const restaurant = {
 // console.log(...mySet);
 // console.log(mySet.has(12))
 
-const rest = new Map();
+// const rest = new Map();
+//
+// rest.set('name', 'Classico Italian')
+//     .set('location', 'Via Angelo Tavanti');
+//
+// console.log(rest)
+//
+// console.log(rest.get('name'));
+//
+// console.log(rest.get('location'));
+//
+// console.log(rest.get('notExistingName'));
+//
+// rest.delete('name');
+//
+//
+// console.log(rest)
 
-rest.set('name', 'Classico Italian')
-    .set('location', 'Via Angelo Tavanti');
+const question = new Map([
+    ['question', 'What is the best programming language?'],
+    [1, 'C'],
+    [2, 'C#'],
+    [3, 'C++'],
+    ['correct', 2]
+]);
 
-console.log(rest)
+console.log(question);
 
-console.log(rest.get('name'));
-
-console.log(rest.get('location'));
-
-console.log(rest.get('notExistingName'));
-
-rest.delete('name');
-
-
-console.log(rest)
+for (const item of question) {
+    console.log(item)
+}
