@@ -126,24 +126,42 @@ const restaurant = {
 //
 // console.log(a.a1)
 
-const mySet = new Set([
-    1,
-    1,
-    1,
-    2,
-    3,
-    4,
-    4,
-    1
-]);
+// const mySet = new Set([
+//     1,
+//     1,
+//     1,
+//     2,
+//     3,
+//     4,
+//     4,
+//     1
+// ]);
+//
+// console.log(...mySet);
+//
+// console.log(mySet.size);
+//
+// console.log(mySet.has(1))
+// console.log(mySet.has(12))
+//
+// mySet.add(12);
+// console.log(...mySet);
+// console.log(mySet.has(12))
 
-console.log(...mySet);
+const rest = new Map();
 
-console.log(mySet.size);
+rest.set('name', 'Classico Italian')
+    .set('location', 'Via Angelo Tavanti');
 
-console.log(mySet.has(1))
-console.log(mySet.has(12))
+console.log(rest)
 
-mySet.add(12);
-console.log(...mySet);
-console.log(mySet.has(12))
+console.log(rest.get('name'));
+
+console.log(rest.get('location'));
+
+console.log(rest.get('notExistingName'));
+
+rest.delete('name');
+
+
+console.log(rest)
