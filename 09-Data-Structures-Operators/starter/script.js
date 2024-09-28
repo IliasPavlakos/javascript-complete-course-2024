@@ -110,11 +110,21 @@ const restaurant = {
 //
 // console.log(false && 0 && 'ilias');
 
-let name = '' || 'ilias';
-console.log(name);
+// let name = '' || 'ilias';
+// console.log(name);
+//
+// name ||= 'john';
+// console.log(name);
+//
+// name &&= 'john';
+// console.log(name);
 
-name ||= 'john';
-console.log(name);
+const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 
-name &&= 'john';
-console.log(name);
+for(const item of menu){
+    console.log(item);
+}
+
+for(const item of menu.entries()){
+    console.log(item);
+}
