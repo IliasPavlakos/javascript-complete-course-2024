@@ -9,7 +9,7 @@
 const secretNumber = Math.trunc(Math.random() * 20) + 1;
 document.querySelector('.number').textContent = secretNumber.toString();
 
-let score = 10;
+let score = 3;
 document.querySelector('.score').textContent = score.toString();
 
 document.querySelector('.check').addEventListener('click', function(){
@@ -21,8 +21,7 @@ document.querySelector('.check').addEventListener('click', function(){
         document.querySelector('.guess').focus();
     } else if(guess === secretNumber){
         document.querySelector('.message').textContent = 'Correct Number!';
-        score += 10;
-        document.querySelector('.score').textContent = score.toString();
+        document.querySelector('body').style.backgroundColor = '#60b347';
     } else if(guess > secretNumber) {
         if(score === 0){
             document.querySelector('.message').textContent = 'You lost!'
