@@ -102,10 +102,19 @@ const restaurant = {
 // const {sat, ...weekdays} = restaurant.openingHours;
 // console.log(weekdays);
 
-console.log(3 || 'ilias');
-console.log('' || 'ilias');
-console.log(false || 0 || 'ilias');
-console.log(null || undefined);
-console.log(undefined || null);
+// console.log(3 || 'ilias');
+// console.log('' || 'ilias');
+// console.log(false || 0 || 'ilias');
+// console.log(null || undefined);
+// console.log(undefined || null);
+//
+// console.log(false && 0 && 'ilias');
 
-console.log(false && 0 && 'ilias');
+let name = '' || 'ilias';
+console.log(name);
+
+name ||= 'john';
+console.log(name);
+
+name &&= 'john';
+console.log(name);
