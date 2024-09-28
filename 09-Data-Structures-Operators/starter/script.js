@@ -55,25 +55,37 @@ const restaurant = {
 // const [i,,[k,j]] = nested;
 // console.log(i,k,j);
 
-const {name: restaurantName, location: restaurantLocation} = restaurant;
+// const {name: restaurantName, location: restaurantLocation} = restaurant;
+//
+// const { meny = [], starterMenu : starter = [] } = restaurant;
+// console.log(meny, starter);
+//
+// let a = 1;
+// let b = 2;
+// const obj = { a: 1111, b: 2222};
+// console.log(a,b);
+//
+// ({a,b} = obj);
+// console.log(a,b);
+//
 
-const { meny = [], starterMenu : starter = [] } = restaurant;
-console.log(meny, starter);
+const arr = [1,2,3];
 
-let a = 1;
-let b = 2;
-const obj = { a: 1111, b: 2222};
-console.log(a,b);
+const badNewArr = [0, arr[0], arr[1], arr[2]];
+console.log(badNewArr);
 
-({a,b} = obj);
-console.log(a,b);
+const goodNewArr = [0, ...arr];
+console.log(goodNewArr);
 
+console.log(...goodNewArr);
 
+const newMenu = [...restaurant.mainMenu, 'Soups'];
+console.log(newMenu);
 
+const mainMenuCopy = [...restaurant.mainMenu];
 
-
-
-
+const joinedArr = [...restaurant.mainMenu, ...restaurant.starterMenu];
+console.log(joinedArr);
 
 
 
