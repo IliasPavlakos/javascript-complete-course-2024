@@ -31,26 +31,68 @@ const restaurant = {
       return [this.starterMenu[startedIndex], this.mainMenu[startedIndex]];
     }
 };
+//
+// const  arr = [2,3,4];
+// const a = arr[0];
+// const b = arr[1];
+// const c = arr[2];
+//
+// const [x, y, z] = arr;
+//
+// console.log(a, b, c)
+// console.log(x, y, z);
+//
+// let [first,,, last] = restaurant.categories;
+// console.log(first, last);
+//
+// [last , first ] = [first, last];
+// console.log(first, last);
+//
+// const [starter, main] = restaurant.order(1,2);
+// console.log(starter, main);
+//
+// const nested = [2,4,[1,2]];
+// const [i,,[k,j]] = nested;
+// console.log(i,k,j);
 
-const  arr = [2,3,4];
-const a = arr[0];
-const b = arr[1];
-const c = arr[2];
+const {name: restaurantName, location: restaurantLocation} = restaurant;
 
-const [x, y, z] = arr;
+const { meny = [], starterMenu : starter = [] } = restaurant;
+console.log(meny, starter);
 
-console.log(a, b, c)
-console.log(x, y, z);
+let a = 1;
+let b = 2;
+const obj = { a: 1111, b: 2222};
+console.log(a,b);
 
-let [first,,, last] = restaurant.categories;
-console.log(first, last);
+({a,b} = obj);
+console.log(a,b);
 
-[last , first ] = [first, last];
-console.log(first, last);
 
-const [starter, main] = restaurant.order(1,2);
-console.log(starter, main);
 
-const nested = [2,4,[1,2]];
-const [i,,[k,j]] = nested;
-console.log(i,k,j);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
