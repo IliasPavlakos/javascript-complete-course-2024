@@ -69,28 +69,26 @@ const restaurant = {
 // console.log(a,b);
 //
 
-const arr = [1,2,3];
+// const arr = [1,2,3];
+//
+// const badNewArr = [0, arr[0], arr[1], arr[2]];
+// console.log(badNewArr);
+//
+// const goodNewArr = [0, ...arr];
+// console.log(goodNewArr);
+//
+// console.log(...goodNewArr);
+//
+// const newMenu = [...restaurant.mainMenu, 'Soups'];
+// console.log(newMenu);
+//
+// const mainMenuCopy = [...restaurant.mainMenu];
+//
+// const joinedArr = [...restaurant.mainMenu, ...restaurant.starterMenu];
+// console.log(joinedArr);
 
-const badNewArr = [0, arr[0], arr[1], arr[2]];
-console.log(badNewArr);
-
-const goodNewArr = [0, ...arr];
-console.log(goodNewArr);
-
-console.log(...goodNewArr);
-
-const newMenu = [...restaurant.mainMenu, 'Soups'];
-console.log(newMenu);
-
-const mainMenuCopy = [...restaurant.mainMenu];
-
-const joinedArr = [...restaurant.mainMenu, ...restaurant.starterMenu];
-console.log(joinedArr);
-
-
-
-
-
+const copyRestaurant = {...restaurant, isCopy: true};
+console.log(copyRestaurant);
 
 
 
