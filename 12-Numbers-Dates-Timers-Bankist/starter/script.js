@@ -297,6 +297,7 @@ console.log(Math.ceil(122.416))
 console.log(Math.floor(122.416))
 */
 
+/*
 const now = new Date()
 console.log(now);
 
@@ -307,12 +308,16 @@ console.log(new Date(account1.movementsDates[0]));
 
 console.log(new Date(2024, 10, 19, 13, 37, 24));
 
-
 console.log(now.getDay());
 console.log(now.getMonth());
 console.log(now.getFullYear());
 
 console.log(now.toISOString());
+*/
+
+const now = new Date()
+const locale = navigator.language;
+console.log(Intl.DateTimeFormat(locale).format(now));
 
 
 
