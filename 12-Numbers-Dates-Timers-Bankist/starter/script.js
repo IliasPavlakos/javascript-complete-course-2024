@@ -277,6 +277,7 @@ console.log(Number.isFinite(2))
 console.log(Number.isFinite('1/0'))
 */
 
+/*
 console.log(Math.sqrt(25))
 console.log(25 ** (1/2))
 
@@ -294,17 +295,24 @@ console.log(Math.trunc(122.416));
 console.log(Math.round(122.416))
 console.log(Math.ceil(122.416))
 console.log(Math.floor(122.416))
+*/
+
+const now = new Date()
+console.log(now);
+
+console.log(new Date('Aug 2 2024'));
+console.log(new Date('11/12/2024'));
+
+console.log(new Date(account1.movementsDates[0]));
+
+console.log(new Date(2024, 10, 19, 13, 37, 24));
 
 
+console.log(now.getDay());
+console.log(now.getMonth());
+console.log(now.getFullYear());
 
-
-
-
-
-
-
-
-
+console.log(now.toISOString());
 
 
 
