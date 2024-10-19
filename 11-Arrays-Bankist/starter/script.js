@@ -109,6 +109,17 @@ console.log(arr.at(0));
 console.log(arr.at(-1));
 */
 
+/*
+currencies.forEach(function (value, key, map) {
+  console.log(key, '-', value);
+})
+
+const currenciesUnique = new Set(
+    ['USD', 'EUR', 'EUR']
+);
+
+console.log(currenciesUnique);
+*/
 
 
 
