@@ -315,10 +315,15 @@ console.log(now.getFullYear());
 console.log(now.toISOString());
 */
 
+/*
 const now = new Date()
 const locale = navigator.language;
 console.log(Intl.DateTimeFormat(locale).format(now));
+*/
 
+const x = 16113.13;
+const locale = navigator.language;
+console.log(Intl.NumberFormat(locale).format(x));
 
 
 
