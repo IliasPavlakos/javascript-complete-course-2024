@@ -256,7 +256,7 @@ btnSort.addEventListener('click', function (e) {
 //
 // console.log(0.1 + 0.2)
 
-
+/*
 console.log('0.1 + 0.2 =', 0.1 + 0.2)
 console.log(0.1 + 0.2 === 0.3)
 
@@ -275,17 +275,25 @@ console.log(Number.isFinite('1em'))
 console.log(Number.isFinite(2/0))
 console.log(Number.isFinite(2))
 console.log(Number.isFinite('1/0'))
+*/
 
+console.log(Math.sqrt(25))
+console.log(25 ** (1/2))
 
+console.log(Math.max(2,4,23,123))
+console.log(Math.min(12,31,2,56,6,1,2,))
 
+console.log(Math.PI * Number.parseFloat('10px') ** 2)
 
+console.log(Math.trunc(Math.random() * 6) + 1); // 1 - 6
 
+const randomInt = (min, max) => Math.trunc(Math.random() * (max - min)) + 1;
+console.log(randomInt(1,1000));
 
-
-
-
-
-
+console.log(Math.trunc(122.416));
+console.log(Math.round(122.416))
+console.log(Math.ceil(122.416))
+console.log(Math.floor(122.416))
 
 
 
