@@ -251,3 +251,65 @@ btnSort.addEventListener('click', function (e) {
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
+//
+// console.log(23 === 23.0)
+//
+// console.log(0.1 + 0.2)
+
+
+console.log('0.1 + 0.2 =', 0.1 + 0.2)
+console.log(0.1 + 0.2 === 0.3)
+
+console.log(Number.parseInt('6rem'))
+console.log(Number.parseFloat('1.123px'))
+
+console.log(Number.isNaN('1em'))
+console.log(Number.isNaN('flex'))
+console.log(Number.isNaN('1'))
+console.log(Number.isNaN(23/0))
+console.log(Number.isNaN(20))
+console.log(Number.isNaN(1))
+console.log(Number.isNaN(+'20X'))
+
+console.log(Number.isFinite('1em'))
+console.log(Number.isFinite(2/0))
+console.log(Number.isFinite(2))
+console.log(Number.isFinite('1/0'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
