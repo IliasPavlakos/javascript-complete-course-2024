@@ -74,3 +74,62 @@ const currencies = new Map([
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 /////////////////////////////////////////////////
+/*
+let arr = ['a', 'b', 'c', 'd', 'e', 'f'];
+
+console.log(arr.slice(2));
+console.log(arr.slice(2,4));
+console.log(arr.slice(-2));
+console.log(arr.slice(1, -1));
+
+console.log(arr);
+console.log(arr.splice(2));
+console.log(arr);
+
+arr = ['a', 'b', 'c', 'd', 'e', 'f'];
+console.log(arr);
+console.log(arr.reverse());
+console.log(arr.reverse());
+
+let arr2 = ['o', 'i'];
+console.log(arr2.concat(arr));
+console.log(arr);
+console.log(arr2);
+
+console.log(arr.join('-'));
+*/
+
+/*
+const arr = [33, 11, 41];
+
+console.log(arr[0]);
+console.log(arr.at(0));
+
+// console.log(arr[-1]); // Error
+console.log(arr.at(-1));
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
